@@ -1,0 +1,7 @@
+command /dajitem <item type> <player>:
+    permission: admin.dajitem
+	permission: message: Nie masz dostepu do tej komendy!
+	trigger:
+	    send "&cDales &a%argument 1% &cgraczowi &a%argument 2%" to player
+                give argument 1 to argument 2
+                send "&cDostales &a%argument 1%&c z okazji eventu." to argument 2  
